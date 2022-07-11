@@ -59,8 +59,6 @@ td {
 }
 
 tr {
-  transform: translateX(-200%);
-  animation: slideIn 2s ease-in-out forwards;
 }
 
 .octicon {
@@ -73,11 +71,6 @@ tr {
   fill: #8b949e;
 }
 
-@keyframes slideIn {
-  to {
-    transform: translateX(0);
-  }
-}
 </style>
 <g>
 <rect x="5" y="5" id="background" />
